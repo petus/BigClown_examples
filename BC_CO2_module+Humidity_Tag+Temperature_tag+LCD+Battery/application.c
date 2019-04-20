@@ -1,3 +1,14 @@
+/*
+*   Example FW for BigClown IoT Platform
+*   CO2 module, LCD module, Battery module, Humidity Tag, Temperature Tag
+*   
+*   This example shows value from CO2, temperature of temperature tag (TMP112), 
+*   temperature&humidity of humidity tag (SHT20), votage of battery on LCD. 
+*   The screen is updated every 5 minutes (can be changed by define CO2_UPDATE_NORMAL_INTERVAL).
+*
+*   www.chiptron.cz (czech)
+*   www.time4ee.com (english)
+*/
 #include <application.h>
 
 #define BLACK true
