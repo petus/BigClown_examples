@@ -1,12 +1,12 @@
 /*
-* BigClown - Lux Meter Module
-* 
-* https://chiptron.cz
-* https://time4ee.com
-* 
-* The example code is based on https://www.bigclown.com/
-* 
-* 2018
+*   Example FW for BigClown IoT Platform
+*   LCD module and Luxmeter Tag
+*   
+*   This example shows value from LUXmeter LCD. 
+*   The screen is updated every 5 minutes (can be changed by define CO2_UPDATE_NORMAL_INTERVAL).
+*
+*   www.chiptron.cz (czech)
+*   www.time4ee.com (english)
 */
 
 #include "application.h"
@@ -74,4 +74,3 @@ void application_init(void)
      // Don't forget to update
     bc_module_lcd_update();
 }
-
